@@ -13,7 +13,7 @@ def generate_sales_reports(log_file):
                         # range of indices to extract from the string. The range [0:3] includes the characters at 
                         # indices 0, 1, and 2, but it excludes the character at index 3. In this exercise, 
                         # line[0] is the first word of the string.
-        if day == "Tue": # This code is an if statement saying if day is "Tue", print the line. This filters
+        if day == "Mon": # This code is an if statement saying if day is "Tue", print the line. This filters
                          # all lines that start with Tue and prints it.
             print(line)
 
